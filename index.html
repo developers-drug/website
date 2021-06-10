@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Developers Drug</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href=""><img src="assets/images/logo-full.png" class="logo"></a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#problem-solution">What is The Problem</a></li>
+                    <li><a href="#problem-solution">How we can Solve</a></li>
+                    <li><a href="#user-advantage">What you get</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="assets/images/menu-icon.jpeg" class="menu-icon" onclick="toggleMenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Developers<br>Drug</h2>
+                <h3>Complete Backend Core Inner Depth Development </h3>
+                <!-- <p></p>
+                <h4></h4> -->
+                <a href="https://www.youtube.com/channel/UC86pnER2XwfWZQ-PqBJ9uyg" target="_blank"><button type="button">Lets Start <img src="assets/images/arrow.png"></button></a>
+            </div>
+            <div class="col-2">
+                <img src="assets/images/Slide2.jpg" class="controller">
+                <div class="color-box"></div>
+                <!-- <div class="add-btn">
+                    <img src="" alt="">
+                </div> -->
+            </div>
+        </div>
+        <div class="row" style="align-items: flex-start;" id="problem-solution">
+            <div class="col-3">
+                <h4>What is The Problem</h4>
+                
+                <!-- <div class="sub-heading">Lots of Developers know so many cool stuffs but either </div>  -->
+                <div class="main-content">
+                    <ul>
+                        <li>Lack of Awareness in Native or Core Strength</li>
+                        <li>How to design and write efficient systems from scratch</li>
+                        <li>Feeling lack of confidence while production delployment</li>
+                        <li>External Dependencies leads a Large Size Image Bundle</li>
+                    </ul>
+                </div>
+                <div class="sub-heading">
+                    <h2 style="color: red;">Puzzled Face.</h2>
+                    <img style="width: 55px;margin-left: 10px;" src="assets/images/puzzled.png">
+                </div>
+            
+            </div>
+            <div class="col-4">
+                <h4>How we can Solve It</h4>
+               
+                <!-- <div class="sub-heading">We Teach you the</div> -->
+                <div class="main-content">
+                    <ul>
+                        <li>Inner Depth Concepts</li>
+                        <li>Use of Core Modules Strength</li>
+                        <li>Rare Problems and its Solution</li>
+                        <li>Internal Linking of Core CS Fundamentals</li>
+                    </ul> 
+                </div>
+                <div class="sub-heading">
+                    <h2 style="color: green;">Solid Foundation.</h2>
+                    <img style="width: 70px;margin-left: 10px;" src="assets/images/confidence.jpeg">
+                </div>
+              
+            </div>
+            
+        </div>
+        <div class="row" id="user-advantage">
+            <div class="col-3" style="flex-basis: 40%;">
+                <h4>What you get</h4>
+                
+                <!-- <div class="sub-heading">Lots of Developers know so many cool stuffs but either </div>  -->
+                <div class="main-content">
+                    <a href="https://www.youtube.com/channel/UC86pnER2XwfWZQ-PqBJ9uyg" target="_blank"><img style="width: 300px;height: 200px;border: solid 5px orange;" src="assets/images/Slide1.jpg"></a>
+                </div>
+                <!-- <div class="sub-heading">
+                    
+                </div> -->
+            </div>
+            <div class="col-4" style="flex-basis: 60%;">
+                <h4></h4>
+                
+                <!-- <div class="sub-heading">Lots of Developers know so many cool stuffs but either </div>  -->
+                <div class="main-content">
+                    <ul>
+                        <li style="color: #ff54a2; font-size: larger;margin-bottom: 10px;">Playlist Name: NodeJS Documentation Explained</li>
+                        <a href="https://www.youtube.com/channel/UC86pnER2XwfWZQ-PqBJ9uyg" target="_blank"><li style="font-size: 18px;">Video Title: Can We write NodeJS code without using NPM ?</li></a>
+                        <!-- <li>Link: </li> -->
+                        <!-- <li>External Dependencies leads a Large Size Image Bundle</li> -->
+                    </ul>
+                </div>
+                <!-- <div class="sub-heading">
+                    
+                </div> -->
+            </div>
+        </div>
+        <div class="social-links" id="contact">
+            <h3>Contact Us : developersdrug@gmail.com</h3>
+            <img src="assets/images/fb.jpg">
+            <img src="assets/images/tw.png">
+            <a href="https://www.youtube.com/channel/UC86pnER2XwfWZQ-PqBJ9uyg" target="_blank"><img src="assets/images/yt.png"></a>
+            <a href="https://github.com/developers-drug" target="_blank"><img src="assets/images/gt.png"></a>
+            <img src="assets/images/l.png">
+            <img src="assets/images/ig.png">
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList")
+        menuList.style.maxHeight="0px"
+        
+        function toggleMenu() {
+            if(menuList.style.maxHeight=="0px"){
+                menuList.style.maxHeight="13px"
+            } else {
+                menuList.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+</html>
